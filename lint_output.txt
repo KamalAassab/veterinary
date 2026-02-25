@@ -1,0 +1,59 @@
+
+> web-app@0.1.0 lint
+> eslint
+
+
+C:\Users\4B\Desktop\Veterinary\src\app\not-found.tsx
+   3:10  warning  'Globe' is defined but never used                                @typescript-eslint/no-unused-vars
+  14:70  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\4B\Desktop\Veterinary\src\components\About.tsx
+   11:13   warning  't' is assigned a value but never used                           @typescript-eslint/no-unused-vars
+   98:242  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  149:29   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  149:59   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  149:138  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  152:30   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\4B\Desktop\Veterinary\src\components\Contact.tsx
+   4:57  warning  'Sparkles' is defined but never used      @typescript-eslint/no-unused-vars
+   4:67  warning  'ArrowRight' is defined but never used    @typescript-eslint/no-unused-vars
+  12:71  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  61:82  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  83:38  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\4B\Desktop\Veterinary\src\components\Footer.tsx
+  4:8   warning  'Image' is defined but never used  @typescript-eslint/no-unused-vars
+  5:68  warning  'Clock' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\4B\Desktop\Veterinary\src\components\Gallery.tsx
+  32:31  warning  'index' is defined but never used              @typescript-eslint/no-unused-vars
+  33:12  warning  'isLoaded' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\4B\Desktop\Veterinary\src\components\Hero.tsx
+  4:22  warning  'Play' is defined but never used          @typescript-eslint/no-unused-vars
+  4:34  warning  'CheckCircle2' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\4B\Desktop\Veterinary\src\components\Patients.tsx
+  5:33  warning  'Activity' is defined but never used  @typescript-eslint/no-unused-vars
+  8:10  warning  'cn' is defined but never used        @typescript-eslint/no-unused-vars
+
+C:\Users\4B\Desktop\Veterinary\src\components\Services.tsx
+  5:84  warning  'Sparkles' is defined but never used   @typescript-eslint/no-unused-vars
+  7:10  warning  'GlassCard' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\4B\Desktop\Veterinary\src\components\Testimonials.tsx
+   16:7   warning  'ReviewCard' is assigned a value but never used                  @typescript-eslint/no-unused-vars
+   75:29  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+   75:46  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  121:48  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\4B\Desktop\Veterinary\src\components\ui\magnetic-button.tsx
+  14:78  warning  'ref' is defined but never used           @typescript-eslint/no-unused-vars
+  56:31  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\4B\Desktop\Veterinary\src\contexts\LanguageContext.tsx
+  3:54  warning  'useEffect' is defined but never used  @typescript-eslint/no-unused-vars
+
+Ô£û 30 problems (13 errors, 17 warnings)
+
