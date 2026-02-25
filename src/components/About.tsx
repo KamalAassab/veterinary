@@ -8,15 +8,16 @@ export function About() {
                     <div className="aspect-[4/5] overflow-hidden rounded-[2rem] shadow-sm">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
-                            alt="Portrait du Dr. Salma Kandil"
+                            alt="Dr. Salma Kandil - Vétérinaire à El Jadida"
                             className="w-full h-full object-cover"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtB2NdN86Pn6mn66p1M0IwTmMt4ZcXSocFTVJIU6OUROXavhMXAeNgiQOggxL6Gh5MYUTggfDJesL_nMDIldrBHfwFUHMaUFCtytTAxRnod23RbIExGZifGRDgIQ4aChnKsDBRsajuiSd55BXalVkamG6UNSJC8MWzmVDS9j2-XmwwdcTNtVfoyi2rQ-xgmY57Sr6ndOQUo5eRvCWPVQiwzhy4nkBvwLKZwhMGwHry2Zdg3MBcTTitC-8R8XvaOi5Mmkiwet2jDPs"
                         />
                     </div>
                 </div>
                 <div className="flex flex-col items-start">
-                    <h2 className="font-display text-3xl font-bold text-primary tracking-tight mb-4">
-                        Dr. Salma Kandil
+                    <h2 className="font-display text-3xl font-bold text-primary tracking-tight mb-4 leading-snug">
+                        Dr. Salma Kandil <br className="hidden md:block" />
+                        <span className="text-xl md:text-2xl text-deep-brown/80 font-medium">Votre Vétérinaire à El Jadida</span>
                     </h2>
                     <div className="w-full flex gap-12 mb-10">
                         <div className="space-y-1">

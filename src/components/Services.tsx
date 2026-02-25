@@ -4,10 +4,10 @@ export function Services() {
     return (
         <section className="max-w-7xl mx-auto px-4 md:px-10 mb-32 scroll-mt-32" id="services">
             <div className="text-center mb-16 space-y-4">
-                <h2 className="text-primary font-bold uppercase tracking-[0.3em] text-sm">Services</h2>
-                <h3 className="font-display text-4xl md:text-5xl font-bold text-deep-brown tracking-tight">Nos Spécialités</h3>
+                <h2 className="text-primary font-bold uppercase tracking-[0.3em] text-sm">Services Vétérinaires</h2>
+                <h3 className="font-display text-4xl md:text-5xl font-bold text-deep-brown tracking-tight">Nos Spécialités à El Jadida</h3>
                 <p className="text-deep-brown/50 max-w-xl mx-auto text-sm">
-                    Des soins d&apos;excellence prodigués avec les dernières technologies médicales dans un environnement apaisant conçu pour le confort de vos animaux.
+                    Des soins d&apos;excellence prodigués avec les dernières technologies médicales dans notre clinique d&apos;El Jadida, un environnement apaisant conçu pour le confort de vos animaux.
                 </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

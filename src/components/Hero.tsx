@@ -6,7 +6,7 @@ export function Hero() {
             <div className="absolute inset-0 z-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                    alt="Healthy dog and cat together in a beautiful sun-drenched park"
+                    alt="Cabinet Vétérinaire El Jadida - Dr. Salma Kandil soignant un chat et un chien"
                     className="w-full h-full object-cover"
                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnQTxZn6wGHZO-EFui7BerpCiK6BP28znfZ4tUfrTEBdLLq9K_8UiGAVDFoiHUzqu8hAolPwyYpWjxXILfACnxnNWOfMQUHMjw0b1drezMGZocpB905hzCr_Z3ztk1jqWG-G3jOmNQrupyBhWlCKEF5ci-rEe9giYXwOqDWlJ9lV5RKlD0IILlmfAAfXgMFBqWqqC4vMo354ML9HrtRFzhf5fLrZIwEBur6U1BHvMHI-0nWeZrXTl6LQbj02U1Tz-ckiz7H6i_u4Y"
                 />
@@ -21,7 +21,7 @@ export function Hero() {
                         à El Jadida.
                     </h1>
                     <p className="hidden md:block text-lg md:text-xl text-white/95 max-w-xl leading-relaxed font-medium drop-shadow-md">
-                        Offrez à vos animaux une vie saine et épanouie grâce à notre expertise vétérinaire passionnée, dans un cadre serein et naturel.
+                        Le cabinet vétérinaire du Dr. Salma Kandil à El Jadida offre à vos animaux une vie saine et épanouie grâce à notre expertise passionnée, dans un cadre serein.
                     </p>
                     <div className="flex flex-wrap gap-4 pt-4">
                         <button
