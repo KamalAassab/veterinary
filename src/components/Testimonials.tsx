@@ -42,37 +42,51 @@ export function Testimonials() {
                 <h2 className="text-primary font-bold uppercase tracking-[0.3em] text-sm mb-4">Avis Vétérinaire El Jadida</h2>
                 <h3 className="font-display text-4xl md:text-5xl font-bold text-deep-brown tracking-tight">Ce que disent les propriétaires à propos de notre clinique</h3>
             </div>
-            <div className="relative px-4 md:px-12">
-                <div className="flex items-center justify-center gap-8 mb-12">
+            <div className="relative px-2 sm:px-4 md:px-12">
+                <div className="flex items-center justify-center gap-4 md:gap-8 mb-8 md:mb-12">
                     <button
                         onClick={prevTestimonial}
-                        className="size-12 rounded-full border border-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all duration-300 min-w-12 shrink-0"
+                        className="hidden md:flex size-12 rounded-full border border-primary/20 items-center justify-center text-primary hover:bg-primary hover:text-white transition-all duration-300 min-w-12 shrink-0"
                     >
                         <span className="material-symbols-outlined">west</span>
                     </button>
                     <div className="max-w-3xl w-full">
-                        <div className="testimonial-card p-10 md:p-14 rounded-3xl shadow-sm border-primary/5 min-h-[350px] flex flex-col justify-center">
-                            <div className="flex gap-1 mb-8 justify-center">
+                        <div className="testimonial-card p-6 sm:p-10 md:p-14 rounded-3xl shadow-sm border-primary/5 min-h-[300px] md:min-h-[350px] flex flex-col justify-center">
+                            <div className="flex gap-1 mb-6 md:mb-8 justify-center">
                                 {[...Array(5)].map((_, i) => (
-                                    <span key={i} className="material-symbols-outlined text-primary text-2xl" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+                                    <span key={i} className="material-symbols-outlined text-primary text-xl md:text-2xl" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
                                 ))}
                             </div>
-                            <p className="text-deep-brown text-lg md:text-2xl font-serif italic mb-10 leading-relaxed text-center min-h-[100px] flex items-center justify-center">
+                            <p className="text-deep-brown text-base sm:text-lg md:text-2xl font-serif italic mb-8 md:mb-10 leading-relaxed text-center min-h-[120px] md:min-h-[100px] flex items-center justify-center">
                                 &quot;{current.text}&quot;
                             </p>
-                            <div className="flex flex-col items-center gap-4">
-                                <div className="size-16 bg-primary/10 rounded-full flex items-center justify-center text-primary font-bold text-xl">
+                            <div className="flex flex-col items-center gap-3 md:gap-4">
+                                <div className="size-12 md:size-16 bg-primary/10 rounded-full flex items-center justify-center text-primary font-bold text-lg md:text-xl">
                                     {current.initials}
                                 </div>
                                 <div className="text-center">
-                                    <p className="font-bold text-deep-brown text-lg tracking-tight">{current.name}</p>
+                                    <p className="font-bold text-deep-brown text-base md:text-lg tracking-tight">{current.name}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <button
                         onClick={nextTestimonial}
-                        className="size-12 rounded-full border border-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all duration-300 min-w-12 shrink-0"
+                        className="hidden md:flex size-12 rounded-full border border-primary/20 items-center justify-center text-primary hover:bg-primary hover:text-white transition-all duration-300 min-w-12 shrink-0"
+                    >
+                        <span className="material-symbols-outlined">east</span>
+                    </button>
+                </div>
+                <div className="flex md:hidden justify-center gap-6 mb-8">
+                    <button
+                        onClick={prevTestimonial}
+                        className="size-12 rounded-full border border-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all duration-300 shrink-0"
+                    >
+                        <span className="material-symbols-outlined">west</span>
+                    </button>
+                    <button
+                        onClick={nextTestimonial}
+                        className="size-12 rounded-full border border-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all duration-300 shrink-0"
                     >
                         <span className="material-symbols-outlined">east</span>
                     </button>
